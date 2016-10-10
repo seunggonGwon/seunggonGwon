@@ -63,3 +63,11 @@ html 언어에서는 `<blockquote>` 요소를 사용하여 인용절을 구조�
 > "It`s delicious"<br>
 > "나야 현빈"
 
+### 표 추가
+
+Job type | Role
+---|---
+Planner | Plan
+Designer | Design
+Developer | Develop
+
