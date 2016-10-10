@@ -17,9 +17,13 @@ kevin test website.
 </ol>
 ```
 
+### 비순차 목록
+
 - item1
 - item2
 - item3
+
+### 순차 목록
 
 1. item1
 1. item2
