@@ -6,7 +6,7 @@ kevin test website.
 
 # TODO
 
-- [x] Study Markdown
+- [ ] Study Markdown
 - [ ] make `_index.html`
 
 ```html
