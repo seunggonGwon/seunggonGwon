@@ -2,6 +2,13 @@
 
 kevin test website.
 
+-
+
+# TODO
+
+- [] Study Markdown
+- [] make `_index.html`
+
 ```html
 <!-- 비순차 목록 -->
 <ul>
