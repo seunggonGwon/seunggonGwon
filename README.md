@@ -57,9 +57,9 @@ kevin test website.
 ### 인용구문
 
 인용절은 보통 들여쓰기를 통해 사용자에게 일반 문장과 구분해준다.<br>
-html 언어에서는 <blockquote> 요소를 사용하여 인용절을 구조화한다.
+html 언어에서는 `<blockquote>` 요소를 사용하여 인용절을 구조화한다.
 
-"Design is ALL. ALL is Design."<br>
-"It`s delicious"<br>
-"나야 현빈"
+> "Design is ALL. ALL is Design."<br>
+> "It`s delicious"<br>
+> "나야 현빈"
 
