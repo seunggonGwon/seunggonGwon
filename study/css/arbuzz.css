@@ -1,0 +1,107 @@
+/*! arbuzz.css © yamoo9.net, 2016 */
+.container .row {
+	margin-top: 20px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.header {
+	padding: 30px 0;
+	background: #fff;
+
+}
+.logo {
+	text-align: center;
+}
+.gnb {
+	font-size: 0;
+}
+.gnb ul {
+	padding-left: 0;
+}
+.gnb li {
+	display: inline-block;
+	font-size: 11px;
+}
+.gnb li + li{
+	margin-left: 61px;
+}
+
+.banner .banner-box.bottom {
+	margin-top: 10px;
+}
+.banner .first.last {
+	margin-top: 20px;
+}
+/*product*/
+
+.product .product-category {
+	font-size: 0;
+}
+.product .product-category ul {
+	text-align: center;
+}
+.product .product-category li {
+	display: inline-block;
+}
+.product .product-category li + li {
+	margin-left: 70px;
+}
+
+/*banner*/
+.about {
+	word-wrap: normal;
+	text-align: center;
+	background: #fff;
+}
+.about .col-12 {
+	padding: 0 80px;
+	box-sizing: border-box;
+}
+.about .about-txt {
+	text-align: left;
+}
+
+/*blog*/
+.blog h2 {
+	text-align: center;
+	font-size: 2em;
+}
+.blog .blog-category {
+	padding: 10px 0;
+	text-align: center;
+	background: #fff;
+}
+.blog .blog-category li {
+	display: inline-block;
+}
+.blog .blog-category li + li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.blog .blog-list li {
+	height: 300px;
+	background: hotpink;
+}
+
+
+
+.carousel {
+	margin-top: 20px;
+	position: relative;
+}
+.carousel .carousel-bg {
+	text-align: right;
+}
+.carousel .carousel-txt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	margin-top: 10%;
+	text-align: center;
+	font-size: 10em;
+	font-weight: bold;
+}
