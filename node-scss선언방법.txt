@@ -1,0 +1,1 @@
+node-sass scss/style.scss -w css/style.css -o
