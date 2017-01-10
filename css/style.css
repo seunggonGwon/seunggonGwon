@@ -31,7 +31,7 @@ table {
     margin-top: 1.5em;
     font-size: 0.8em; }
     .plan-tbody .desc::before {
-      content: "ex)";
+      content: "내용:";
       margin-right: 10px; }
   .plan-tbody .yet,
   .plan-tbody .ing,
