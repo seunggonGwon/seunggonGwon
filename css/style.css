@@ -1,3 +1,4 @@
+@charset "UTF-8";
 table {
   border-collapse: collapse; }
 
@@ -15,14 +16,36 @@ table {
     padding: 1em 0; }
   .plan-thead th,
   .plan-tbody td {
-    width: 33.3%;
-    padding: 10px 0;
+    padding: 1em 0;
     border: 1px solid #ccc; }
   .plan-thead th:nth-child(odd) {
     background: #a4e265; }
   .plan-thead th:nth-child(even) {
     background: #90c957; }
-  .plan-tbody tr:nth-child(odd) td {
-    background: #e3f2d3; }
+  .plan-tbody .title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.3em; }
+  .plan-tbody .desc {
+    display: inline-block;
+    margin-top: 1.5em;
+    font-size: 0.8em; }
+    .plan-tbody .desc::before {
+      content: "ex)";
+      margin-right: 10px; }
+  .plan-tbody .yet,
+  .plan-tbody .ing,
+  .plan-tbody .success {
+    font-weight: bold;
+    font-size: 0.8em; }
+  .plan-tbody .yet::before {
+    content: "준비중"; }
+  .plan-tbody .ing::before {
+    content: "미완료";
+    color: #f00; }
+  .plan-tbody .success::before {
+    content: "완료";
+    color: #a4e265; }
   .plan-context {
-    padding: 2em 0; }
+    padding: 2em 0;
+    background: #e3f2d3; }

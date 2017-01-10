@@ -17,8 +17,7 @@ table {
 	}
 	&-thead th,
 	&-tbody td {
-		width: 33.3%;
-		padding: 10px 0;
+		padding: 1em 0;
 		border: 1px solid #ccc;
 	}
 	&-thead {
@@ -30,14 +29,44 @@ table {
 		}
 	}
 	&-tbody {
-		tr:nth-child(odd) td {
-			background: #e3f2d3;
+		//제목 & 설명
+		.title {
+			display: block;
+			font-weight: bold;
+			font-size: 1.3em;
 		}
-		tr:nth-child(even) td {
-			// background: #e3f2d3;
+		.desc {
+			display: inline-block;
+			margin-top: 1.5em;
+			font-size: 0.8em;
+
+			&::before {
+				content: "ex)";
+				margin-right: 10px;
+			}
+		}
+		//상태표시
+		.yet,
+		.ing,
+		.success {
+			font-weight: bold;
+			font-size: 0.8em;
+		}
+		.yet::before {
+			content: "준비중";
+
+		}
+		.ing::before {
+			content: "미완료";
+			color: #f00;
+		}
+		.success::before {
+			content: "완료";
+			color: #a4e265;
 		}
 	}
 	&-context {
 		padding: 2em 0;
+		background: #e3f2d3;
 	}
 }
