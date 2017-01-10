@@ -9,8 +9,8 @@ table {
 
 .l-wrap {
   max-width: 1080px;
-  padding: 30px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 30px; }
 
 .h1 {
   margin: 1em auto;
@@ -18,7 +18,7 @@ table {
 
 .plan {
   text-align: center;
-  border: 1px solid #ccc; }
+  border: 1px solid #ddd; }
   .plan caption {
     padding: 1em 0; }
   .plan-thead th,
