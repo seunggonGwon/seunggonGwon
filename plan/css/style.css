@@ -49,17 +49,20 @@ table {
   .plan-tbody .yet,
   .plan-tbody .ing,
   .plan-tbody .success,
+  .plan-tbody .non-success,
   .plan-tbody .refer {
     font-weight: bold;
     font-size: 0.8em; }
   .plan-tbody .yet::before {
     content: "준비중"; }
   .plan-tbody .ing::before {
-    content: "미완료";
+    content: "진행중";
     color: #f00; }
   .plan-tbody .success::before {
     content: "완료";
     color: #a4e265; }
+  .plan-tbody .non-success::before {
+    content: "미완료"; }
   .plan-context {
     padding: 2em 0;
     font-weight: bold;

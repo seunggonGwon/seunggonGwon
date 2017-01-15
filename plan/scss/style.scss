@@ -65,6 +65,7 @@ table {
 		.yet,
 		.ing,
 		.success,
+		.non-success,
 		.refer {
 			font-weight: bold;
 			font-size: 0.8em;
@@ -74,12 +75,15 @@ table {
 
 		}
 		.ing::before {
-			content: "미완료";
+			content: "진행중";
 			color: #f00;
 		}
 		.success::before {
 			content: "완료";
 			color: #a4e265;
+		}
+		.non-success::before {
+			content: "미완료";
 		}
 	}
 	&-context {
