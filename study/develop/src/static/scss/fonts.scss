@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* --------------------------------------------------
+ * fonts.css - font family
+ * -------------------------------------------------- */
+
+/* Arita Buri (serif) */
+@font-face {
+  font-family: 'Buri';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Arita-buriM-subset.eot);
+  src: url(../fonts/Arita-buriM-subset.eot?iefix) format('eot'),
+		url(../fonts/Arita-buriM-subset.woff) format('woff');
+}
+
+/* NotoSans (sans-serif) */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans Korean'),
+    url(../fonts/NotoSansKR-Light.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans Korean'),
+    url(../fonts/NotoSansKR-Regular.woff2) format('woff2'),
+    url(../fonts/NotoSansKR-Regular.woff) format('woff');
+}

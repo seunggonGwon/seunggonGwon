@@ -1,0 +1,8 @@
+.sass-cache/
+dist/
+node_modules/
+**/upload/
+*.css.map
+*.css
+*.rej
+*.zip
